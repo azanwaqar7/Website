@@ -25,12 +25,12 @@ import WorkSliderBtns from '@/components/ui/WorkSliderBtns';
 const projects = [
     {
         num: '01',
-        category: 'FMCG Data Analysis',
+        category: 'HR Dashboard',
         title: 'project 1',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime doloribus voluptate ipsum esse repudiandae ',
-        stack: [{name: "SQL"},{name: "Excel"}, {name: "PowerBI"}],
-        image: '/assets/work/photos.png',
-        live:"",
+        description: 'The comprehensive HR dashboard analyzes workforce data, featuring summary views on overall metrics, demographics, and income analysis, alongside detailed employee records that allow filtering by various attributes for in-depth insights and informed decision-making.',
+        stack: [{name: "SQL"},{name: "Excel"}, {name: "Tableau"}],
+        image: '/assets/work/HR_.png',
+        live:"https://public.tableau.com/views/HR_Dashboard_17270318611100/HRSummary?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
         github: "",
 
     },
