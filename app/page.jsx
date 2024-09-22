@@ -7,6 +7,7 @@ import Social from "@/components/ui/Social";
 import Photo from "@/components/ui/Photo";
 import Stats from "@/components/ui/Stats";
 
+
 const Home = () => {
   return ( <section className = "h-full">
 
@@ -24,14 +25,16 @@ const Home = () => {
                 </p>
                 {/* btn and socials*/}
                 <div className="flex flex-col xl:flex-row items-center gap-8">
+                <a href = "/assets/work/Azan's CV.pdf" download>
                     <Button 
                     variant = "outline" 
                     size = "lg" 
                     className = "uppercase flex items-center gap-2 text-white"
                     >
                     <span>Download CV</span>
-                    <FiDownload className ="text-xl" />
+                    <FiDownload className ="text-xl"/>
                   </Button>
+                  </a>
                   <div className="mb-8 xl:mb-0">
                     <Social 
                     containerStyles="flex gap-6" 
@@ -53,3 +56,4 @@ const Home = () => {
 
 
 export default Home;
+//export default downloadCV;

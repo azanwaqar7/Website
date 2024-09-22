@@ -4,21 +4,21 @@ import CountUp from "react-countup";
 
 const stats =[
     {
-        num:12,
+        num:4,
         text: "Years of experience",
     },
     {
-        num:26,
+        num:8,
         text: "Projects completed",
     },
     {
         num:8,
         text: "Technologies mastered",
     },
-    {
+    /*{
         num:500,
         text: "Code commits",
-    },
+    },*/
 ]
 // This give me stats information right at the bottom of the homepage
 const Stats = () => {
