@@ -27,7 +27,7 @@ import {SiTailwindcss,SiNextdotjs} from "react-icons/si";
 //about data
 const about = {
     title: 'About me',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam omnis, temporibus natus esse et eligendi adipisci',
+    description: "If you're seeking a Data Analyst with over 4 years of experience and expertise in various languages and tools, please feel free to reach out. My email and contact number are provided below.",
     info:[
         {
             fieldName: "Name",
@@ -60,7 +60,7 @@ const about = {
 const experience ={
     icon: 'assets/work/photos.png',
     title: "My experience",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam omnis, temporibus natus esse et eligendi adipisci",
+    description: "Experienced Data Scientist skilled in designing efficient data pipelines, implementing statistical models, and conducting comprehensive analyses using Python and SQL. Proficient in translating complex data into actionable insights for strategic decision-making. Strong communicator and collaborative problem-solver, driving growth and optimizing business processes through stakeholder partnerships.",
     items: [
         {
             company: "Motive",
@@ -85,7 +85,7 @@ const experience ={
 const education ={
     icon: 'assets/work/photos.png',
     title: "My education",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam omnis, temporibus natus esse et eligendi adipisci",
+    description: "I hold an MS in Data Science and a BS in Electrical Engineering, which equipped me with essential analytical, problem-solving, and communication skills for a successful data analysis career.",
     items: [
         {
             institution: "Fast - National University of Computer & Emerging Sciences, Lahore, Pakistan",
@@ -109,7 +109,7 @@ const education ={
 //skills data
 const skills ={
     title: "My skills",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam omnis, temporibus natus esse et eligendi adipisci",
+    description: "I utilize a range of tools including SQL for database management, Python for data analysis, and Power BI and Tableau for effective data visualization, ensuring comprehensive insights and informed decision-making.",
     skillList :[
         {
             icon: <FaPython />,
@@ -154,12 +154,12 @@ const Resume = () => {
                 </TabsList>
 
                 {/* content */}
-                <div className = "min-h-[70vh] w-full">
+                <div className = "min-h-[70vh] w-full ">
                     {/* Experience */}
                     <TabsContent value = "experience" className = "w-full">
-                        <div className = "flex flex-col gap-[30px] text-center xl:text-left">
+                        <div className = "flex flex-col gap-[20px] text-center xl:text-left ">
                             <h3 className = "text-4xl font-bold">{experience.title}</h3>
-                            <p className= "max-w-[600px] text-white/60 mx-auto xl:mx-0">
+                            <p className= "max-w-[800px] text-white/60 mx-auto xl:mx-0">
                                 {experience.description}
                             </p>
                             <ScrollArea className = "h-[400px] max-w-[1000px]">
@@ -183,7 +183,7 @@ const Resume = () => {
                     <TabsContent value = "education" className = "w-full">
                     <div className = "flex flex-col gap-[25px] text-center xl:text-left">
                             <h3 className = "text-4xl font-bold">{education.title}</h3>
-                            <p className= "max-w-[600px] text-white/60 mx-auto xl:mx-0">
+                            <p className= "max-w-[800px] text-white/60 mx-auto xl:mx-0">
                                 {education.description}
                             </p>
                             <ScrollArea className = "h-[400px] max-w-[1000px]">
@@ -210,7 +210,7 @@ const Resume = () => {
                         <div className="flex flex-col gap-[30px]">
                             <div className = "flex flex-col gap-[30px] text-center xl:text-left">
                                 <h3 className = "text-4xl font-bold">{skills.title}</h3>
-                                <p className = "max-w-[600px] text-white/60 mx-auto xl:mx-0">{skills.description}</p>
+                                <p className = "max-w-[800px] text-white/60 mx-auto xl:mx-0">{skills.description}</p>
                             </div>
                             <ul className ="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 xl:gap-[30px]">
                                 {skills.skillList.map((skill,index)=>{
@@ -235,7 +235,7 @@ const Resume = () => {
                     <TabsContent value = "about" className = "w-full text-center xl:text-left">
                         <div className = "flex flex-col gap-[30px]">
                             <h3 className = "text-4xl font-bold">{about.title}</h3>
-                            <p className ="max-w-[600px] text-white/60 mx-auto xl:mx-0">{about.description}</p>
+                            <p className ="max-w-[700px] text-white/60 mx-auto xl:mx-0">{about.description}</p>
                             <ul className = "grid grid-cols-1 xl:grid-cols-2 gap-y-6 max-w-[620px] mx-auto xl:mx-0">
                                 {about.info.map((item,index)=>{
                                     return <li key={index} className = "flex items-center justify-center xl:justify-start gap-4">

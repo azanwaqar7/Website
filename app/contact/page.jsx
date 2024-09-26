@@ -47,7 +47,7 @@ className="py-6"
             <div className = "xl:h-[54%] order-2 xl:order-none">
                 <form className = "flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl"> 
                     <h3 className = "text-4xl text-accent">Let's work together</h3> 
-                    <p className = "text-white/60">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem mollitia laboriosam numquam ab commodi. Architecto nisi tempora veritatis voluptate. Ipsa excepturi sapiente esse asperiores voluptatum itaque iste soluta labore vero!</p>
+                    <p className = "text-white/60">If you're seeking a Data Analyst with extensive experience and expertise in various languages and tools, please feel free to reach out.</p>
                     {/*input */}
                     <div className = "grid grid-cols-1 md:grid-cols-2 gap-6">
                         <Input type = "firstname" placeholder = "Firstname"/>

@@ -7,25 +7,25 @@ const services = [
     {
         num:'01',
         title: 'Data Analysis',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. ducimus ipsa maxime deserunt.',
+        description: 'Data analysis services examine trends, growth, and overall insights, enabling your company to resolve business challenges through informed decision-making and effective visualization with advanced tools, enhancing understanding and strategic planning.',
         href :""
     },
     {
         num:'02',
         title: 'Database Management',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. ducimus ipsa maxime deserunt.',
+        description: 'Database management services ensure your data is expertly structured and integrated, with timely updates to incorporate new information and efficient data creation, enhancing accessibility and reliability for your organization’s needs.',
         href :""
     },
     {
         num:'03',
         title: 'SQL Programming',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. ducimus ipsa maxime deserunt.',
+        description: 'SQL programming services ensure your data queries are optimized and well-structured, enabling efficient data retrieval that addresses business challenges. By delivering clean and accessible data, we empower your organization to conduct thorough analysis and drive informed decision-making.',
         href :""
     },
     {
         num:'04',
         title: 'Python Programming',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. ducimus ipsa maxime deserunt.',
+        description: 'Python programming services provide robust data structuring and analysis, utilizing various relevant libraries for efficient data manipulation. We also leverage visualization libraries to effectively showcase your data, empowering informed decision-making and insights for your organization.',
         href :""
     }
 ];
