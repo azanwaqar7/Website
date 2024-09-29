@@ -37,7 +37,7 @@ const projects = [
 
     {
         num: '02',
-        category: 'FMCG Dashoard',
+        category: 'FMCG Dashboard',
         title: 'project 2',
         description: 'The FMCG dashboard provides an in-depth analysis of brands and products within various categories. It features summary views highlighting overall sales performance, demographic trends, and order patterns. Users can filter data by specific attributes to gain insights into brand and product performance, uncover correlations, and identify best-selling items.',
         stack: [{name: "SQL"},{name: "Excel"}, {name: "Tableau"}],
