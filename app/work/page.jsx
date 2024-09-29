@@ -47,7 +47,7 @@ const projects = [
 
     },
 
-    {
+    /*{
         num: '03',
         category: 'E-Commerce Data Analysis',
         title: 'project 3',
@@ -92,7 +92,7 @@ const projects = [
         image: '/assets/work/photos.png',
         live:"",
         github: "",
-    },
+    },*/
 
 
 ]
