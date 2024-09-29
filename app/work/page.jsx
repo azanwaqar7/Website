@@ -37,12 +37,12 @@ const projects = [
 
     {
         num: '02',
-        category: 'ED-Tech Data Analysis',
+        category: 'FMCG Dashoard',
         title: 'project 2',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime doloribus voluptate ipsum esse repudiandae ',
-        stack: [{name: "SQL"},{name: "Excel"}, {name: "PowerBI"}],
-        image: '/assets/work/photos.png',
-        live:"",
+        description: 'The FMCG dashboard provides an in-depth analysis of brands and products within various categories. It features summary views highlighting overall sales performance, demographic trends, and order patterns. Users can filter data by specific attributes to gain insights into brand and product performance, uncover correlations, and identify best-selling items.',
+        stack: [{name: "SQL"},{name: "Excel"}, {name: "Tableau"}],
+        image: '/assets/work/FMCG_.png',
+        live:"https://public.tableau.com/views/FMCG_Dashboard_17276289157210/FMCGDashboardOverview?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
         github: "",
 
     },
