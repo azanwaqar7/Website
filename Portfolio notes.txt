@@ -1,0 +1,13 @@
+npm run dev -> to start the localhost:3000
+
+https://azan-portfolio.vercel.app/  (My-website)
+
+After pushing the changes to the website add these commands in visual studio code:
+
+git branch
+git push origin master
+git add .
+git commit -m "Update website with latest changes"
+
+
+This will automatically push the changes to my website
