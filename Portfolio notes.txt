@@ -5,9 +5,10 @@ https://azan-portfolio.vercel.app/  (My-website)
 After pushing the changes to the website add these commands in visual studio code:
 
 git branch
-git push origin master
+git push -u origin main
 git add .
 git commit -m "Update website with latest changes"
+git push
 
 
 This will automatically push the changes to my website
