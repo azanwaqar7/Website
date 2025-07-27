@@ -1,5 +1,6 @@
 "use client"
 
+import { BsFileEarmarkText } from "react-icons/bs";
 
 import {motion} from 'framer-motion'
 import React, {useState} from "react"
@@ -31,7 +32,7 @@ const projects = [
         stack: [{name: "SQL"},{name: "Excel"}, {name: "Tableau"}],
         image: '/assets/work/HR_.png',
         live:"https://public.tableau.com/views/HR_Dashboard_17270318611100/HRSummary?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
-        github: "",
+        github: "https://github.com/azanwaqar7",
 
     },
 
@@ -43,7 +44,7 @@ const projects = [
         stack: [{name: "SQL"},{name: "Excel"}, {name: "Tableau"}],
         image: '/assets/work/FMCG_.png',
         live:"https://public.tableau.com/views/FMCG_Dashboard_17276289157210/FMCGDashboardOverview?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
-        github: "",
+        github: "https://github.com/azanwaqar7",
 
     },
 
@@ -53,10 +54,10 @@ const projects = [
         title: 'project 3',
         description: 'Developed interactive dashboards for Brand and Product Dossiers, as well as Trends and Rankings, enabling data-driven insights across key FMCG metrics. The Brand Dossier includes performance, scorecards, demographics, peer comparisons, and customer feedback through ratings and reviews. The Product Dossier provides a detailed view of individual product performance, customer demographics, and comparative analytics. Additionally, the Trends and Rankings module features dynamic dashboards such as the Search & Order Trend Monitor, Category Insight, and Brand Intelligence, helping stakeholders identify market movements, category performance, and brand positioning in real time.',
         stack: [{name: "SQL"},{name: "Excel"}, {name: "Sisense"}, {name: "Amazon QuickSight"} , {name: "Amazon Redshift SQL"}  ],
-        image: '/assets/work/photos.png',
-        live:"",
-        github: "",
-        pdf: "/assets/pdfs/Portfolio_compressed.pdf"
+        image: '/assets/work/Food_Bev.png',
+        live:"/assets/work/Portfolio_compressed.pdf",
+        github: "https://github.com/azanwaqar7",
+        pdf: "/assets/work/Portfolio_compressed.pdf"
 
     },
     /*
@@ -190,6 +191,23 @@ const Work = () => {
                                 <div className = "relative w-full h-full">
                                     <Image src={project.image} fill className = "object-cover" alt = ""/>
                                 </div>
+                                {/* Project Info Overlay */}
+                                <div className="absolute z-20 bottom-4 left-4 text-white space-y-2 bg-black/50 p-4 rounded-xl max-w-[90%]">
+                                <h3 className="text-xl font-semibold">{project.title}</h3>
+                                <p className="text-sm opacity-80">{project.category}</p>
+
+                                {project.pdf && (
+                                <a
+                                href={project.pdf}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="inline-block text-xs underline text-blue-300 hover:text-blue-100"
+                                >
+                                View Portfolio PDF
+                                </a>
+                                )}
+                                </div>
+
                                 </div>
                             </SwiperSlide>;
                         })}
