@@ -57,7 +57,7 @@ const projects = [
         image: '/assets/work/foodbev.png',
         live:"/assets/work/Portfolio_compressed_.pdf",
         github: "https://github.com/azanwaqar7",
-        pdf: "/assets/work/Portfolio_compressed.pdf"
+        pdf: "/assets/work/Portfolio_compressed_.pdf"
 
     },
     /*
