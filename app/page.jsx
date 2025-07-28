@@ -25,16 +25,21 @@ const Home = () => {
                 </p>
                 {/* btn and socials*/}
                 <div className="flex flex-col xl:flex-row items-center gap-8">
-                <a href = "/assets/work/pdf/Azan_Resume_2025.pdf" download>
-                    <Button 
-                    variant = "outline" 
-                    size = "lg" 
-                    className = "uppercase flex items-center gap-2 text-white"
-                    >
-                    <span>Download CV</span>
-                    <FiDownload className ="text-xl"/>
-                  </Button>
-                  </a>
+                <a 
+                href="https://drive.google.com/file/d/1qeTjt3kapBpEUY7t-u2UfpBGuonHQDNq/view?usp=sharing" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                >
+                <Button 
+                  variant="outline" 
+                  size="lg" 
+                  className="uppercase flex items-center gap-2 text-white"
+                >
+                <span>View CV</span>
+                <FiDownload className="text-xl" />
+               </Button>
+                </a>
+
                   <div className="mb-8 xl:mb-0">
                     <Social 
                     containerStyles="flex gap-6" 
