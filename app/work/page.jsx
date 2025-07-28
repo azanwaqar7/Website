@@ -60,6 +60,7 @@ const projects = [
         pdf: "/assets/work/Portfolio_compressed.pdf"
 
     },
+
     /*
     {
         num: '04',
