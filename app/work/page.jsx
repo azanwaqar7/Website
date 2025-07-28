@@ -57,7 +57,6 @@ const projects = [
         image: '/assets/work/foodbev.png',
         live:"https://drive.google.com/file/d/12pWZBlaYabaNrHhd6g7x8Txi25j1-5C_/view?usp=sharing",
         github: "https://github.com/azanwaqar7",
-        pdf: "https://drive.google.com/file/d/12pWZBlaYabaNrHhd6g7x8Txi25j1-5C_/view?usp=sharing"
 
     },
 
@@ -165,18 +164,6 @@ const Work = () => {
                                     </Tooltip>
                                 </TooltipProvider>
                             </Link>
-                            {project.pdf && (
-                             <a href={project.pdf} target="_blank" rel="noopener noreferrer">
-                                <TooltipProvider delayduration={100}>
-                                    <Tooltip>
-                                        <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">
-                                        <BsFileEarmarkText className="text-white text-3xl group-hover:text-accent" />
-                                        </TooltipTrigger>
-                            <TooltipContent><p>View PDF</p></TooltipContent>
-                                    </Tooltip>
-                                </TooltipProvider>
-                             </a>
-                            )}
 
                         </div>
                     </div>
