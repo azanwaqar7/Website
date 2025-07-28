@@ -179,22 +179,7 @@ const Work = () => {
                                 <div className = "relative w-full h-full">
                                     <Image src={project.image} fill className = "object-cover" alt = ""/>
                                 </div>
-                                {/* Project Info Overlay */}
-                                <div className="absolute z-20 bottom-4 left-4 text-white space-y-2 bg-black/50 p-4 rounded-xl max-w-[90%]">
-                                <h3 className="text-xl font-semibold">{project.title}</h3>
-                                <p className="text-sm opacity-80">{project.category}</p>
-
-                                {project.pdf && (
-                                <a
-                                href={project.pdf}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="inline-block text-xs underline text-blue-300 hover:text-blue-100"
-                                >
-                                View Portfolio PDF
-                                </a>
-                                )}
-                                </div>
+                                
 
                                 </div>
                             </SwiperSlide>;
