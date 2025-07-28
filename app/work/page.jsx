@@ -52,12 +52,12 @@ const projects = [
         num: '03',
         category: 'Food & Beverage Dashboard',
         title: 'project 3',
-        description: 'Developed interactive dashboards for Brand and Product Dossiers, as well as Trends and Rankings, enabling data-driven insights across key FMCG metrics. The Brand Dossier includes performance, scorecards, demographics, peer comparisons, and customer feedback through ratings and reviews. The Product Dossier provides a detailed view of individual product performance, customer demographics, and comparative analytics. Additionally, the Trends and Rankings module features dynamic dashboards such as the Search & Order Trend Monitor, Category Insight, and Brand Intelligence, helping stakeholders identify market movements, category performance, and brand positioning in real time.',
+        description: 'Developed interactive dashboards for Brand and Product Dossiers, as well as Trends and Rankings, enabling data-driven insights across key FMCG metrics. The Brand/Product Dossier includes performance, scorecards, demographics, peer comparisons, and customer feedback through ratings and reviews. Additionally, the Trends and Rankings module features dynamic dashboards such as the Search & Order Trend Monitor, Category Insight, and Brand Intelligence, helping stakeholders identify market movements, category performance, and brand positioning in real time.',
         stack: [{name: "SQL"},{name: "Excel"}, {name: "Sisense"}, {name: "Amazon QuickSight"} , {name: "Amazon Redshift SQL"}  ],
         image: '/assets/work/foodbev.png',
-        live:"/assets/work/Portfolio_compressed_.pdf",
+        live:"/assets/work/Portfolio_compressed.pdf",
         github: "https://github.com/azanwaqar7",
-        pdf: "/assets/work/Portfolio_compressed_.pdf"
+        pdf: "/assets/work/Portfolio_compressed.pdf"
 
     },
     /*
