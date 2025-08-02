@@ -36,22 +36,13 @@ const projects = [
 
     },
 
+
+    
+
     {
         num: '02',
-        category: 'FMCG Dashboard',
-        title: 'project 2',
-        description: 'The FMCG dashboard provides an in-depth analysis of brands and products within various categories. It features summary views highlighting overall sales performance, demographic trends, and order patterns. Users can filter data by specific attributes to gain insights into brand and product performance, uncover correlations, and identify best-selling items.',
-        stack: [{name: "SQL"},{name: "Excel"}, {name: "Tableau"}],
-        image: '/assets/work/FMCG_.png',
-        live:"https://public.tableau.com/views/FMCG_Dashboard_17276289157210/FMCGDashboardOverview?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
-        github: "https://github.com/azanwaqar7",
-
-    },
-
-    {
-        num: '03',
         category: 'Food & Beverage Dashboard',
-        title: 'project 3',
+        title: 'project 2',
         description: 'Developed interactive dashboards for Brand and Product Dossiers, as well as Trends and Rankings, enabling data-driven insights across key FMCG metrics. The Brand/Product Dossier includes performance, scorecards, demographics, peer comparisons, and customer feedback through ratings and reviews. Additionally, the Trends and Rankings module features dynamic dashboards such as the Search & Order Trend Monitor, Category Insight, and Brand Intelligence, helping stakeholders identify market movements, category performance, and brand positioning in real time.',
         stack: [{name: "SQL"}, {name: "Sisense"},{name: "Excel"}, {name: "Amazon QuickSight"} , {name: "Amazon Redshift SQL"}  ],
         image: '/assets/work/snackmagic.png',
@@ -60,18 +51,32 @@ const projects = [
 
     },
 
-    /*
     {
-        num: '04',
-        category: 'Health Sector Data Analysis',
+        num: '03',
+        category: ' Market Research & Business Intelligence',
         title: 'project 4',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime doloribus voluptate ipsum esse repudiandae ',
-        stack: [{name: "SQL"},{name: "Excel"}, {name: "PowerBI"}],
-        image: '/assets/work/photos.png',
-        live:"",
-        github: "",
+        description: 'Developed a dashboard using SerpAPI to analyze business data across Pakistan, aimed at uncovering regional opportunities based on trends, customer reviews, and online presence. It highlighted business types, review counts, average ratings, and included a scatter plot to explore the relationship between review volume and rating quality. The dashboard also assessed the impact of having a website on business visibility.',
+        stack: [{name: "SQL"},{name: "Excel"}, {name: "PowerBI"}, {name: "Figma"}],
+        image: '/assets/work/Business Intelligence Meets Geo Insights..png',
+        live:"https://drive.google.com/file/d/1S7jx4cTPNShrwV5PKmMGZ0Yp6m7DSTtW/view?usp=sharing",
+        github: "https://github.com/azanwaqar7",
 
     },
+
+    {
+        num: '04',
+        category: 'FMCG Dashboard',
+        title: 'project 4',
+        description: 'The FMCG dashboard provides an in-depth analysis of brands and products within various categories. It features summary views highlighting overall sales performance, demographic trends, and order patterns. Users can filter data by specific attributes to gain insights into brand and product performance, uncover correlations, and identify best-selling items.',
+        stack: [{name: "SQL"},{name: "Excel"}, {name: "Tableau"}],
+        image: '/assets/work/FMCG_.png',
+        live:"https://public.tableau.com/views/FMCG_Dashboard_17276289157210/FMCGDashboardOverview?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
+        github: "https://github.com/azanwaqar7",
+
+    },
+
+    /*
+
 
     {
         num: '05',
